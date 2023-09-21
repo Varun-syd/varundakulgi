@@ -1,0 +1,194 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-image: url('vv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 24px; /* Adjust the font size of the company name */
+    margin-left: 10px; /* Add some spacing between the logo and company name */
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between navigation links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.nav-links a:hover {
+    color: #ffd700; /* Change color on hover, e.g., to gold */
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Practice Areas styles */
+#practice-areas ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#practice-areas li {
+    margin-bottom: 10px;
+}
+
+/* Attorney styles */
+.attorney {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.attorney img {
+    width: 150px; /* Adjust the width of the attorney image */
+    height: auto;
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px;
+}
+
+.attorney h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.attorney p {
+    font-size: 16px;
+}
+
+/* Testimonials styles */
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 18px;
+}
+
+.testimonial p:last-child {
+    margin-top: 10px;
+}
+
+/* Contact Us styles */
+.contact-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #ffd700;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #ffcc00; /* Darken the background color on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive design - adjust as needed */
+@media (max-width: 768px) {
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .nav-links li {
+        margin-right: 10px;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
